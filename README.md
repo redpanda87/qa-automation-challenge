@@ -26,7 +26,7 @@ The project is composed of the following parts
 
 
 
-## How to execute the tests
+## How to execute the tests?
 
 #### API Tests (Swagger)
 * Open the project ->src/test/java/challenge/APITests
@@ -43,7 +43,7 @@ The project is composed of the following parts
 
 ## How to execute the test in parallel ?
 
-* Serenity provide a way to execute several test in parallel in the pox file you can see this
+* Serenity provides a way to execute several test in parallel in the pox file you can see this
 * <parallel.tests>4</parallel.tests> it will run 4 parallel threads per processor core
 
 ## How to run test in different browsers/OS ?
