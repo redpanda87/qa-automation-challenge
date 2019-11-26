@@ -37,6 +37,22 @@ The project is composed of the following parts
 * It is important to add the option serenity aggregate because that command creates the report
 
 
-## How to see the tests report
+## How to see the tests report ?
 * After execute the maven command go to target/site/index.html
 * Here you can see a detail report of each test, and its results(passed or failed) and even a screenshot for every step.
+
+## How to execute the test in parallel ?
+
+* Serenity provide a way to execute several test in parallel in the pox file you can see this
+* <parallel.tests>4</parallel.tests> it will run 4 parallel threads per processor core
+
+## How to run test in different browsers/OS ?
+
+* On resources folder you can find all the supported webdrivers for OS (Linux,Mac,Windows)
+* In case you want to execute a different browser , you just need to change the serenity.conf file
+
+## How to run different environments(Urls)?
+
+* Go to serenity.conf file on the resources folder, the go to the environments section, there you can change or add more URL ENV
+
+
